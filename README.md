@@ -8,7 +8,11 @@ The tool simulates attacker ransomware attacker by
 
 1. Create test S3 bucket
 2. Copy files from local folder to S3 bucket
-3. Encrypt S3 bucket, it encrypts the files and deletes files in folder
+3. Encrypt S3 bucket, it encrypts the files and deletes original files in folder
+
+Configure AWS credentials on endpoint
+
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
 
 Note: Running the tool on production S3 bucket will encrupt the bucket. Use the key in s3_encrypt.go to decrypt the files.
 
