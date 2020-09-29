@@ -16,7 +16,6 @@ limitations under the License.
 package cmd
 
 import (
-	"fmt"
 	"os"
 	"github.com/spf13/cobra"
 )
@@ -24,10 +23,9 @@ import (
 // awsS3 represents the s3 command
 var awsS3Cmd = &cobra.Command{
 	Use:   "s3",
-	Short: "S3 Ransomware Simulator",
-	Long: "S3 Ransomware Simulator",
+	Short: "Knyt s3 Ransomware Simulator",
+	Long: "Knyt s3 Ransomware Simulator",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("s3 called")
 		cmd.Help()
 		os.Exit(1)
 	},

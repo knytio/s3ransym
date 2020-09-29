@@ -12,9 +12,9 @@ var cfgFile string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "knyts3bot",
-	Short: "S3 Ransomware Simulator",
-	Long: "AWS S3 Ransomware Simulator",
+	Use:   "s3ransym",
+	Short: "Knyt s3  Ransomware Simulator",
+	Long: "Knyt s3 Ransomware Simulator",
 	//	Run: func(cmd *cobra.Command, args []string) { },
 }
 
